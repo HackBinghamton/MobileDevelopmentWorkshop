@@ -28,7 +28,7 @@ Each screen in your Android app is called an "activity". When using your app, us
 
 Let's consider the app we'll be making -- it has two activities: one where a user can enter a message and press a *Display* button, and one where the user views the message they wrote. A state diagram for our app might look something like this:
 
-![activities](/home/lambda/repos/MobileDevelopmentWorkshop/android/activities.png)
+![activities](activities.png)
 
 Now, this is a little bit of an oversimplification -- we haven't discussed how we actually transition, which is what "intents" are for.
 
@@ -38,7 +38,7 @@ To switch from one activity to another, Android provides an intent system. Inten
 
 With regard to our application, that'll make our state graph look a little more like this:
 
-![intents](/home/lambda/repos/MobileDevelopmentWorkshop/android/intents.png)
+![intents](intents.png)
 
 This might seem a little clunky, but it makes sense when considering how apps can talk to one another in Android. For example, when you have a photo you'd like to share from the Photos app, Android provides you with a list of apps that you can share through -- the thing these apps have in common is that they have an activity that can be opened by a photo sharing intent!
 
@@ -88,7 +88,7 @@ There should be no more warnings now! Feel free to test your app as is -- it won
 
 Here's roughly how your app should look:
 
-![completeui](/home/lambda/repos/MobileDevelopmentWorkshop/android/completeui.png)
+![completeui](completeui.png)
 
 ## Adding the Display Activity
 
@@ -177,4 +177,4 @@ Change the `.DisplayMessageActivity` entry in `AndroidManifest.xml` to contain t
 
 Now, your app is complete! Here's what it should look like in your display activity (note the back arrow in the top left!):
 
-![completedisplay](/home/lambda/repos/MobileDevelopmentWorkshop/android/completedisplay.png)
+![completedisplay](completedisplay.png)
