@@ -57,7 +57,7 @@ Now that we've got Android Studio up and running, let's whip up a quick "Hello W
 
 1. Open Android Studio, and **click the *Create New Project* button**:
 
-![create-proj](/home/lambda/repos/MobileDevelopmentWorkshop/android/create-proj.png)
+![create-proj](create-proj.png)
 
 2. You'll see that Android Studio comes with a ton of templates for projects right off the bat. For now, let's **just choose *Empty Activity*** -- this'll start us with a simple app and some "Hello World!" text.
 3. Now, you'll be presented with a screen to set up some configuration for your project. The only things we'll worry about here are the *Name* and *Minimum SDK* fields.
@@ -70,19 +70,19 @@ Now that we've got Android Studio up and running, let's whip up a quick "Hello W
 
 Android Studio is built on the JetBrains IDE platform, so if you've ever used PyCharm or IntelliJ, things will look familiar; however, there are a number of significant differences from other IDEs.
 
-![studio](/home/lambda/repos/MobileDevelopmentWorkshop/android/studio.png)
+![studio](studio.png)
 
 On the right, you can see the editor where we can interact with Java, XML, and other files. On the left, you'll see a file tree where we can navigate the files of our project.
 
 In Android Studio, different files are presented differently in the editor. For example, if you click the tab in the upper left of the editor to open `activity_main.xml`, you'll be presented with the Layout Editor:
 
-![layout](/home/lambda/repos/MobileDevelopmentWorkshop/android/layout.png)
+![layout](layout.png)
 
 In this case, Android Studio lets you define the layout of your app with a drag-and-drop editor instead of presenting you with the raw XML. We'll learn more about using this later on.
 
 Let's expand the file tree and see what's actually in this project:
 
-![files](/home/lambda/repos/MobileDevelopmentWorkshop/android/files.png)
+![files](files.png)
 
 Let's start from the top:
 
@@ -110,7 +110,7 @@ Now that we know the lay of the land, let's run our app! It may not look like mu
 
 Near the top-center of the IDE, you should see this menu:
 
-![run](/home/lambda/repos/MobileDevelopmentWorkshop/android/run.png)
+![run](run.png)
 
 This is where we can build and run our app -- I've already installed an emulator, so you might not see the *Pixel 2 API 28* bit. Let's cover how to get that set up.
 
@@ -132,6 +132,6 @@ This should be pretty straightforward -- in the dropdown menu that you got to th
 
 Your virtual device should start, and your app will open up like below:
 
-![phone](/home/lambda/repos/MobileDevelopmentWorkshop/android/phone.png)
+![phone](phone.png)
 
 Congrats! You've just tested your first Android application! Now, let's talk about making it yours.
