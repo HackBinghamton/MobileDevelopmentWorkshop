@@ -4,7 +4,7 @@
 
 ### What You'll Learn
 
-In this section, you'll learn
+In this section, you'll learn:
 
 1. How to install Android Studio
 2. How to create a project in Android Studio
@@ -72,7 +72,9 @@ Android Studio is built on the JetBrains IDE platform, so if you've ever used Py
 
 ![studio](studio.png)
 
-On the right, you can see the editor where we can interact with Java, XML, and other files. On the left, you'll see a file tree where we can navigate the files of our project.
+On the left, you'll see a file tree where we can navigate the files of our project.
+
+On the right, you can see the editor where we can interact with Java, XML, and other files. 
 
 In Android Studio, different files are presented differently in the editor. For example, if you click the tab in the upper left of the editor to open `activity_main.xml`, you'll be presented with the Layout Editor:
 
@@ -135,3 +137,5 @@ Your virtual device should start, and your app will open up like below:
 ![phone](phone.png)
 
 Congrats! You've just tested your first Android application! Now, let's talk about making it yours.
+
+**Next section:** [Building Your First Android App](https://github.com/HackBinghamton/MobileDevelopmentWorkshop/blob/master/android/getting-started.md)
