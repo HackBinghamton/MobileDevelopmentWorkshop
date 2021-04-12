@@ -4,7 +4,7 @@
 
 ### **What you'll learn**
 
-In this section you'll learn
+In this section you'll learn:
 
 1.  What Xcode is and how to install it
 2.  How to make a Hello World iOS app
