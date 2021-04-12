@@ -74,3 +74,7 @@ Tada! You've created your first iOS app, congratulations! Check out our next sec
 You might be wondering how to put an app on the App Store. This is more complicated (and expensive) than it seems. Once you've created a high quality app that you feel comfortable distributing on the App Store, you need to enroll in the Apple Developer Program to be able to put your app on the App Store. Enrolling in this program costs \$99 annually (crazy!). Then you can go to App Store Connect and create a listing for your app with the title, description, and some screenshots. After doing this you can create an archive of your app in Xcode and submit this to App Store Connect as well. Then you can review all the information on your listing and submit your app to the Apple Certification Team for review.
 
 This is a long process so we obviously don't expect you to release any apps to the App Store after this workshop. If you're interested in having the app on your phone for personal use, you can run the app on your phone, as you would to test it. Then the app will remain on your phone until you delete it. If you ever make changes to your app, you'll need to run the app on your phone from Xcode again to put the changes on your phone.
+
+
+
+**Next section:** [Building a Simple App for iOS](https://colab.research.google.com/github/HackBinghamton/MobileDevelopmentWorkshop/blob/master/iOSbeginner.ipynb)
