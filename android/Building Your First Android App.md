@@ -4,7 +4,7 @@
 
 ### What You'll Learn
 
-In this section, you'll learn
+In this section, you'll learn:
 
 1. How "activities" and "intents" play in the structure of Android apps
 2. How to build a UI in the Layout Editor
